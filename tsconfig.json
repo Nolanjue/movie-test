@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noEmitOnError": false,  // Allows build to continue even with errors
+    "skipLibCheck": true,    // Ignores library checks
+    "strict": true,          // Optional: Helps with strict checks in your code
+    // other options...
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
